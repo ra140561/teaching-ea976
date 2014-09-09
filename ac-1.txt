@@ -1,0 +1,21 @@
+ATIVIDADE COMPLEMENTAR 1
+
+Leia o artigo de Cerpa e Verner (Why did your project fail?), 
+disponível em http://dl.acm.org/citation.cfm?id=1610286 e na área de Leituras do ambiente Ensino Aberto, 
+e responda às seguintes questões:
+
+1. No estudo dos autores, qual foi a proporção de projetos de software que falharam? Esse valor é confiável?
+
+	Resposta:
+
+
+
+2. A figura 1 apresenta os principais fatores de falhas em projetos de software e relações entre eles, mas não dá nome para essas relações. Escolha dois fatores que estejam relacionados e discuta qual a relação que você acha que existe entre elas, justificando sua resposta.
+
+	Resposta:
+
+
+
+3. Qual é a sugestão dos autores para que futuros projetos de software fracassem menos, e como essa sugestão ajudaria a melhorar os novos projetos?
+
+	Resposta:
