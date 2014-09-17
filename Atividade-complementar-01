@@ -1,0 +1,25 @@
+ATIVIDADE COMPLEMENTAR 1
+
+Leia o artigo de Cerpa e Verner (Why did your project fail?), 
+disponível em http://dl.acm.org/citation.cfm?id=1610286 e na área de Leituras do ambiente Ensino Aberto, 
+e responda às seguintes questões:
+
+1. No estudo dos autores, qual foi a proporção de projetos de software que falharam? Esse valor é confiável?
+	Resposta: A proporção de projetos que falharam foi analisada em vários períodos, de forma que, segundo relatório de instituiçÕes conhecidas pelo seu trabalho o sucesso de projetos em softwares, desde 1991 até 2007 aproximadamente 25% dos projetos em software falharam.
+Já num momento de análise mais recente, uma revisão do "CHAOS Report", lançado em 1994, aponta taxas de falhas em projetos de software de até 85%, segundo Jørgensen, M. and Moløkken-Østvold, K. em sua publicação.
+Dado que a instituição citada na primeira análise é vinculada a uma Universidade e um dos autores que publicou a posterior revisão do relatório, trabalha com professor no laboratório de pesquisas em ciencia da computação em Oslo, a confiabilidade do valor mencionado é expressiva.
+
+
+
+2. A figura 1 apresenta os principais fatores de falhas em projetos de software e relações entre eles, mas não dá nome para essas relações. Escolha dois fatores que estejam relacionados e discuta qual a relação que você acha que existe entre elas, justificando sua resposta.
+
+	Resposta: Escolhi na verdade 3 fatores que estão estreitamente relacionados de forma que um deles: O projeto subestimado, pode surgir como uma causa dos outros dois fatores, que são Membros Adicionados Tardiamente, e Projeto com Membros Inadequados.
+A relação entre eles é clara quando se pensa num projeto que sob uma primeira análise, ou sob a perspectiva de um gerente de projetos novato, que o projeto será mais simples ou necessitaria de menos recursos do que ele realmente demanda quando a equipe de desenvolvimento se depara com uma complexidade que teria ficado encoberta.
+Dessa forma a alocação de recursos financeiros e de pessoal ficaria também subjugada, podendo haver a falta de um membro chave para a implementação de uma determinada funcionalidade, ou ainda os recursos podem chegar num momento tardio, o que implicaria numa possível quebra de cronograma ou então num superfaturamento levando o projeto ao fracasso quando estes dois fatores são cruciais.
+
+
+
+3. Qual é a sugestão dos autores para que futuros projetos de software fracassem menos, e como essa sugestão ajudaria a melhorar os novos projetos?
+
+	Resposta: Os autores sugerem que as organizações enquanto desenvolvedoras de softwares deverão ter de executar uma "autópsia" de projetos que falharam/fracassaram, o termo "autópsia" nesse sentido se refere a uma análise completa das causas da "morte" dos projetos, de modo a tentar de fato entender e sanar os diversos fatores que contribuiram para tal.
+Os fatores são recorrentes tanto para os projetos em software do dia-a-dia como nos projetos de grande porte, de forma que é possível tal analise de forma sistêmica, e depende apenas de uma questão que, conforme apontam os autores, parece ser de cunho cultural: o clima político da organização dificulta ou não fomenta esse tipo de análise de pós-projeto, que seria o começo para uma melhora nos projetos futuros.
