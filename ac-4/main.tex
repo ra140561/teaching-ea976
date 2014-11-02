@@ -1,0 +1,153 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% LaTeX Example: Project Report
+%
+% Source: http://www.howtotex.com
+%
+% Feel free to distribute this example, but please keep the referral
+% to howtotex.com
+% Date: March 2011 
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% How to use writeLaTeX: 
+%
+% You edit the source code here on the left, and the preview on the
+% right shows you the result within a few seconds.
+%
+% Bookmark this page and share the URL with your co-authors. They can
+% edit at the same time!
+%
+% You can upload figures, bibliographies, custom classes and
+% styles using the files menu.
+%
+% If you're new to LaTeX, the wikibook is a great place to start:
+% http://en.wikibooks.org/wiki/LaTeX
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Edit the title below to update the display in My Documents
+%\title{Relatório Atividade Complementar FLOSS EA976}
+%
+%%% Preamble
+
+\documentclass[12pt,a4paper]{article} % Use A4 paper with a 12pt font size - different paper sizes will require manual recalculation of page margins and border positions
+
+\usepackage{marginnote} % Required for margin notes
+\usepackage{wallpaper} % Required to set each page to have a background
+\usepackage{lastpage} % Required to print the total number of pages
+\usepackage[left=1.3cm,right=2.0cm,top=1.8cm,bottom=5.0cm,marginparwidth=3.4cm]{geometry} % Adjust page margins
+\usepackage{amsmath} % Required for equation customization
+\usepackage{amssymb} % Required to include mathematical symbols
+\usepackage{xcolor} % Required to specify colors by name
+
+\usepackage{fancyhdr} % Required to customize headers
+\usepackage[brazil]{babel}
+\usepackage[latin1]{inputenc}
+%\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{pstricks}
+\usepackage{subfigure}
+\usepackage{caption}  % legendas nas figuras
+\captionsetup{justification=centering,labelfont=bf}
+\usepackage{textcomp}
+\setlength{\headheight}{80pt} % Increase the size of the header to accommodate meta-information
+\pagestyle{fancy}\fancyhf{} % Use the custom header specified below
+\renewcommand{\headrulewidth}{0pt} % Remove the default horizontal rule under the header
+
+\setlength{\parindent}{0cm} % Remove paragraph indentation
+\newcommand{\tab}{\hspace*{2em}} % Defines a new command for some horizontal space
+
+\newcommand\BackgroundStructure{ % Command to specify the background of each page
+\setlength{\unitlength}{1mm} % Set the unit length to millimeters
+
+\setlength\fboxsep{0mm} % Adjusts the distance between the frameboxes and the borderlines
+\setlength\fboxrule{0.5mm} % Increase the thickness of the border line
+\put(10, 20pr){\fcolorbox{black}{gray!5}{\framebox(155,247){}}} % Main content box
+\put(165, 20){\fcolorbox{black}{gray!10}{\framebox(37,247){}}} % Margin box
+\put(10, 262){\fcolorbox{black}{white!10}{\framebox(192, 25){}}} % Header box
+\put(175, 263){\includegraphics[height=23mm,keepaspectratio]{}} % Logo box - maximum height/width: 
+}
+
+%----------------------------------------------------------------------------------------
+%	HEADER INFORMATION
+%----------------------------------------------------------------------------------------
+
+\fancyhead[L]{\begin{tabular}{l r | l r} % The header is a table with 4 columns
+\textbf{2S/2014} & EA976 & \textbf{P\'agina:} & \thepage/\pageref{LastPage} \\ % Project name and page count
+\textbf{Atividade:} & Complementar \#4 & \textbf{Data:} & 27/10/14 \\ % Job number and last updated date
+\textbf{Professor:} & Christian E. Rothenberg & \textbf{Assunto:} & Caracterização  projeto \textit{open source}  \\ % Version and reviewed date
+\textbf{Projeto:} & Nome projeto open source & \textbf{Autor:} & Nome Aluno (RA: XXXXXX) \\ % Designer and reviewer
+\end{tabular}}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%\AddToShipoutPicture{\BackgroundStructure} % Set the background of each page to that specified above in the header information section
+
+%----------------------------------------------------------------------------------------
+%	DOCUMENT CONTENT
+%----------------------------------------------------------------------------------------
+
+\section{Relat\'orio t\'ecnico descritivo sobre projeto de código livre} 
+
+Este modelo reduzido visa proporcionar um roteiro pr\'atico para a reda\,c\~ao do relatório da atvidade complementar \#4, na forma de relat\'orio simplificado. 
+
+Esta se\,c\~ao \'e destinada a apresentar os objetivos do trabalho.\\
+
+\subsection{Descrição do projeto}
+
+Descreva brevemente o tipo de software desenvolvido no projeto, para que serve, quem usa, etc.
+
+
+
+\section{Caracterização do projeto de código livre} 
+Pesquise sobre o projeto para responder as seguintes questões.
+
+
+\subsection{Desenvolvimento}
+
+
+\begin{itemize}
+\item Existe um local dedicado para o desenvolvimento?
+\item É possível extrair o atual código fonte a partir de um repositório público de código fonte?
+\item Quão grande é o código?
+\item Quais são as principais linguagens de programação?
+\item A utilização do pacote depende de algum outro software proprietário ou de código fonte aberto?
+\item É possível calcular o número de \textit{downloads} ou usuários de uma versão em particular?
+\end{itemize}
+
+\subsection{Licença Software Livre}
+
+
+\begin{itemize}
+\item Quem são os patrocinadores que contribuem para a sustentabilidade do projeto?
+\item Quem detém os direitos autorais do código?
+\item O projeto está sob qual tipo de licença de código aberto?
+\item Por que os responsáveis pelo projeto escolheram a licença de código aberto?
+\end{itemize}
+
+\subsection{Governança}
+
+
+\begin{itemize}
+\item Existem quantos desenvolvedores alocados para o projeto?
+\item Quantos \textit{committers}, também conhecidos por desenvolvedores que podem realizar mudanças propostas, o projeto possui?
+\item O que você pode dizer sobre o modelo de governança de código fonte aberto?
+\end{itemize}
+
+\subsection{Manutenção}
+
+
+\begin{itemize}
+\item Gerenciamento de \textit{releases}: Qual o número e frequência de \textit{releases}?
+\item Comunicação: Existe um canal de comunicação útil e ativo para a comunidade / suporte ao usuário?
+\item Existe um \textit{bugtracker} (rastreamento de bugs) com uma lista de bugs corrigidos/pendentes de correção?
+\item Existe um plano de metas para planos futuros? Existe evidência que o plano de metas foi utilizado no passado?
+\item Existe consultoria comercial, treinamento ou consulta disponível para o projeto? A partir de múltiplos prestadores de serviços?         
+\end{itemize}
+        
+
+\par\vspace{\baselineskip}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
